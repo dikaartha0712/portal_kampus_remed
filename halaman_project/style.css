@@ -1,0 +1,145 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+  background-color: #0f172a; /* dark navy */
+  color: #e5e7eb;
+}
+
+/* HEADER */
+header {
+  background-color: #020617;
+  color: #e5e7eb;
+  padding: 22px;
+  text-align: center;
+  border-bottom: 1px solid #1e293b;
+}
+
+/* NAVBAR */
+nav {
+  background-color: #020617;
+  padding: 12px;
+  text-align: center;
+}
+
+nav a {
+  color: #cbd5f5;
+  margin: 0 14px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #38bdf8;
+  text-decoration: underline;
+}
+
+/* MAIN CONTENT */
+main {
+  max-width: 900px;
+  margin: 35px auto;
+  background-color: #020617;
+  padding: 28px;
+  border-radius: 10px;
+  box-shadow: 0 0 0 1px #1e293b;
+}
+
+/* HEADINGS */
+h1, h2, h3 {
+  color: #f8fafc;
+  margin-top: 0;
+}
+
+/* FORM */
+form {
+  max-width: 420px;
+  margin-top: 20px;
+}
+
+label {
+  font-weight: 600;
+  color: #e5e7eb;
+}
+
+input {
+  width: 100%;
+  padding: 11px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  background-color: #020617;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  color: #e5e7eb;
+}
+
+input::placeholder {
+  color: #64748b;
+}
+
+input:focus {
+  outline: none;
+  border-color: #38bdf8;
+}
+
+/* BUTTON */
+button {
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  padding: 11px 20px;
+  border-radius: 7px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 18px;
+}
+
+th {
+  background-color: #020617;
+  color: #38bdf8;
+  padding: 12px;
+  border-bottom: 1px solid #334155;
+  text-align: left;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #1e293b;
+}
+
+tr:nth-child(even) {
+  background-color: #020617;
+}
+
+/* LIST */
+ul {
+  padding-left: 22px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 18px;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #94a3b8;
+  border-top: 1px solid #1e293b;
+}
